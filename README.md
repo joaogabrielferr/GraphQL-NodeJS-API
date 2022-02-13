@@ -9,7 +9,7 @@ O deploy da API foi feita no Heroku, no seguinte endereço: https://desafiotaske
 <br/>
 
 # Rotas
-
+Todas as informações sobre as rotas, seus tipos e parâmetros também estão disponíveis na seção 'Docs', no GraphiQL.
 Mutations:<br/>
 AdicionarProduto(nomeProduto,fabricante,quantidadeEmEstoque,valor)
 <br/>
