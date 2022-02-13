@@ -1,3 +1,4 @@
+/*somente para testar as rotas no graphql, substituido pelo PostgreSQL*/
 [{
     "id":1,
     "nomeProduto":"fulano",
