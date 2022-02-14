@@ -36,6 +36,33 @@ ObterProdutoComMaiorEstoque - sem parametros , retorno: produto
 <br/>
 ObterProdutosSemEstoque - sem parametros , retorno : lista de produtos
 
+<br/><br/>
+Exemplo:<br/>
+```
+query{
+  
+  BuscarProdutos{
+			id,
+    	nomeProduto,
+    	quantidadeEmEstoque,
+    	fabricante,
+    	valor
+  }
+  
+  
+  ObterQuantidadeProdutos
+  
+  
+  ObterProdutosSemEstoque{
+    id,
+    nomeProduto,
+    quantidadeEmEstoque
+  }
+
+  
+}
+```
+
 
 # Arquivos
 
