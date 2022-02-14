@@ -11,17 +11,17 @@ O deploy da API foi feita no Heroku, no seguinte endereço: https://desafiotaske
 # Rotas
 Todas as informações sobre as rotas, seus tipos e parâmetros também estão disponíveis na seção 'Docs', no GraphiQL.
 Mutations:<br/>
-AdicionarProduto(nomeProduto,fabricante,quantidadeEmEstoque,valor)
+AdicionarProduto(nomeProduto,fabricante,quantidadeEmEstoque,valor) , retorno: produto adicionado, com exceção do campo ID
 <br/>
-AlterarProduto(id,nomeProduto,fabricante,quantidadeEmEstoque,valor)
+AlterarProduto(id,nomeProduto,fabricante,quantidadeEmEstoque,valor) , retorno: mensagem indicando que o produto foi alterado
 <br/>
-DeletarProduto(id)
+DeletarProduto(id) , retorno: mensagem indicando que o produto foi deletado
 <br/>
 
 Queries:<br/>
-BuscarProdutos - sem parametros
+BuscarProdutos - sem parametros , retorno: lista de Produtos no banco
 <br/>
-BuscarProdutoPorId(id)
+BuscarProdutoPorId(id) , retorno : produto com a ID
 <br/>
 ObterQuantidadeProdutos - sem paramentros
 <br/>
