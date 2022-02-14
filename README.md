@@ -15,12 +15,9 @@ Os atributos da tabela são referenciados no graphQL como : (id, nomeProduto, fa
 Mutations:<br/>
 AdicionarProduto(nomeProduto,fabricante,quantidadeEmEstoque,valor) , retorno: produto adicionado, com exceção do atributo ID
 <br/>
-<br/>
 AlterarProduto(id,nomeProduto,fabricante,quantidadeEmEstoque,valor) , retorno: mensagem indicando que o produto foi alterado
 <br/>
-<br/>
 DeletarProduto(id) , retorno: mensagem indicando que o produto foi deletado
-<br/>
 <br/>
 
 Queries:<br/>
@@ -42,7 +39,7 @@ Exemplo:<br/>
 query{
   
   BuscarProdutos{
-			id,
+	id,
     	nomeProduto,
     	quantidadeEmEstoque,
     	fabricante,
