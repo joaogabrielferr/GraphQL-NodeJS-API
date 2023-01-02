@@ -1,15 +1,11 @@
-# DesafioTasken
-API para o teste técnico da Tasken.
-<br/>
-Stack: Node.js, Typescript, GraphQL, Express.js, TypeORM, PostgreSQL
 
 <br/>
-O deploy da API foi feita no Heroku, no seguinte endereço: https://desafiotasken.herokuapp.com/graphql
-<br/>(Como o deploy foi feito no Heroku o primeiro load pode demorar até 10 segundos) É possível testar as rotas utilizando o in-Browser IDE GraphiQL acessando o endereço acima, onde é possível escrever as queries e mutations. O banco de dados escolhido foi o PostgreSQL, que está hosteado na plataforma ElephantSQL. O typeORM é utilizado para a conexão com o banco e criação dos comandos em SQL. A tabela Produtos já foi criada no banco e já contém algumos registros.
+API built with Node.js, Typescript, GraphQL, Express.js, TypeORM and PostgreSQL
+
 <br/>
 
 # Rotas
-Todas as informações sobre as rotas, seus tipos e parâmetros também estão disponíveis na seção 'Docs', no GraphiQL.<br/>
+Todas as informações sobre as rotas, seus tipos e parâmetros estão disponíveis na seção 'Docs', no GraphiQL.<br/>
 Os atributos da tabela são referenciados no graphQL como : (id, nomeProduto, fabricante, quantidadeEmEstoque, valor).<br/>
 <br/>
 Mutations:<br/>
