@@ -1,0 +1,8 @@
+/*somente para testar as rotas no graphql, substituido pelo PostgreSQL*/
+[{
+    "id":1,
+    "nomeProduto":"fulano",
+    "fabricante":"fulano@gmail.com",
+    "quantidadeEmEstoque":10000,
+    "valor":10.25
+}]
