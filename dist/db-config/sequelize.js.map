@@ -1,1 +1,0 @@
-{"version":3,"file":"sequelize.js","sourceRoot":"","sources":["../../src/db-config/sequelize.ts"],"names":[],"mappings":"AAAA,MAAM,SAAS,GAAG,OAAO,CAAC,WAAW,CAAC,CAAC;AACvC,MAAM,QAAQ,GAAG,OAAO,CAAC,YAAY,CAAC,CAAC;AAEvC,MAAM,SAAS,GAAG,IAAI,SAAS,CAAC,0FAA0F,CAAC,CAAC;AAE5H,MAAM,CAAC,OAAO,GAAG,SAAS,CAAC"}
